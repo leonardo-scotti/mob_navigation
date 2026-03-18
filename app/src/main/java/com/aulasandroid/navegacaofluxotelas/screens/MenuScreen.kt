@@ -44,7 +44,7 @@ fun MenuScreen(navController: NavController) {
         ) {
             Button(
                 onClick = {
-                    navController.navigate("perfil/Roger")
+                    navController.navigate("perfil/Roger/16")
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color.White
@@ -80,7 +80,7 @@ fun MenuScreen(navController: NavController) {
 
             Button(
                 onClick = {
-                    navController.navigate("login")
+                    navController.popBackStack()
                 },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color.White
